@@ -1,0 +1,125 @@
+.Con {
+    width: 1000px;
+    height: auto;
+    /* background-color: rgb(137, 85, 85); */
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+    .Menu {
+        width: 1000px;
+        height: auto;
+        /* background-color:rgb(255, 255, 255); */
+        display: flex;
+    }
+
+.logo {
+    width: 500px;
+    height: 150px;
+
+}
+
+.logo img {
+    width: 500px;
+    height: 150px;
+}
+
+.Item {
+    width: 500px;
+    height: 150px;
+}
+
+.Item ol {
+    /* list style ở đây để xóa số */
+    list-style: none;
+    display: flex;
+    margin-top: 110px;
+    margin-left: 60px;
+
+}
+
+.Item ol li {
+    /* front size để chỉnh chữ to lên  */
+
+    margin-right: 20px;
+    font-size: 25px;
+    color: rgb(5, 37, 37);
+}
+
+.Banner {
+    width: 1000px;
+    height: 300px;
+    /* background-color: blanchedalmond; */
+    /* background-image: url(Picture/conlon.jpg);
+    */
+    
+    background-size: cover;
+    /* dùng để cho ảnh fit */
+}
+
+.Banner img {
+    width: 1000px;
+    height: 300px;
+}
+
+.Content {
+    width: 1000px;
+    height: auto;
+    /* background-color: coral; */
+    display: flex;
+}
+
+.left {
+    width: 700px;
+    height: auto;
+    /* border: 3px solid ; */
+    /* background-color: chartreuse; */
+}
+.left h1{
+    color: rgb(215, 134, 34);
+    /* margin-left: 20px; */
+    font-size: 50px;
+}
+.left h2{
+    color: blueviolet;
+    /* margin-left: 20px; */
+    margin-bottom: 0px ;
+ 
+}
+.left p{
+    color: rgb(214, 90, 90);
+    font-size: 19px;
+    /* margin-right: 20px; */
+    margin-top: 0;
+    /* padding: auto; */
+    margin-right: 20px;
+}
+
+.right {
+    width: 300px;
+    height: auto;
+    /* border: 3px solid ; */
+    /* background-color: blueviolet; */
+    /* display: flex;
+    text-align: center; */
+    
+   
+}
+.right h2{
+    color: black;
+    font-size: 30px;
+    /* display: flex;
+    text-align: center; */
+    text-align: center;
+}
+.right img{
+    width: 300px;
+    
+}
+
+
+
+
+
